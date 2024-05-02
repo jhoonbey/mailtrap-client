@@ -1,0 +1,7 @@
+﻿services:
+  mailsender:
+    image: mailsender
+    container_name: mailsender-container
+    build:
+      context: .
+      dockerfile: Dockerfile

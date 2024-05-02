@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "eaec40ca-a5e6-42ff-a675-3215d8f0c4d8",
+		"name": "MailTrapApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3327324"
+	},
+	"item": [
+		{
+			"name": "send",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "19c94404e6e4a8d13950932b63439147",
+						"uuid": "c67dba99-3cae-4607-b663-879431232b05"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "SenderName",
+							"value": "MailTrap Admin",
+							"type": "text"
+						},
+						{
+							"key": "SenderEmail",
+							"value": "mailtrap@demomailtrap.com",
+							"type": "text"
+						},
+						{
+							"key": "RecipientName",
+							"value": "Jeyhun",
+							"type": "text"
+						},
+						{
+							"key": "RecipientEmail",
+							"value": "r.ceyhun2011@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "Subject",
+							"value": "Development talks",
+							"type": "text"
+						},
+						{
+							"key": "Text",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "Html",
+							"value": "<!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"UTF-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">     <title>Hello, World!</title> </head> <body>     <h1>Hello, World!</h1>     <p>This is a simple HTML page displaying \"Hello, World!\".</p> </body> </html>",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/Mail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Mail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
