@@ -9,7 +9,6 @@ Welcome to the Email Client Application repository! This project provides a simp
 - [ASP.NET Core] - A high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
 - [Swagger] - Used for API documentation, providing an interactive UI to explore and interact with the API endpoints
 - [Automapper] - A convention-based object-to-object mapper that helps to eliminate tedious and repetitive mapping code between objects of different types
-- [Refit] - A library for automatically generating HTTP API clients from interfaces, simplifying the consumption of RESTful APIs
 
 ## Installation
 
